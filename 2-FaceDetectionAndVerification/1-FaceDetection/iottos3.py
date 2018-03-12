@@ -12,7 +12,7 @@ def lambda_handler(event, context):
 
     file_name = 'image-'+time.strftime("%Y%m%d-%H%M%S")+'.jpg'
 
-    response = s3.put_object(ACL='public-read', Body=face,Bucket=bucket,Key=file_name)
+    response = s3.put_object(Body=face,Bucket=bucket,Key=file_name)
 
     file_url = 'https://s3.amazonaws.com/' + bucket + '/' + file_name
 
