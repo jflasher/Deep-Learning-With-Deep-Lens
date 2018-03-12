@@ -14,12 +14,11 @@ In this exercise, you will learn to:
 ### Create a bucket in S3
 
 1. Visit https://s3.console.aws.amazon.com/s3/home?region=us-east-1# to access Amazon S3 console.
-2. Make sure you are on the US East (N.Virginia) region. (This can be selected in the top, right-hand corner of the screen.)
-3. Click on "Create bucket".
-4. Name the bucket deeplens-sagemaker-your-full-name (Please note: It is important that is prefixed with deeplens-sagemaker prefix, else these services cannot access. Click "Next" twice.
-5. In the "Manage public permissions" section, choose "Grant public read access", and click "Next".
-6. Click "Create bucket".
-7. After you create the bucket, click on that bucket in your S3 bucket list, and create a folder named "test" in the bucket.
+1. Make sure you are on the US East (N.Virginia) region. (This can be selected in the top, right-hand corner of the screen.)
+1. Click on "Create bucket".
+1. Name the bucket deeplens-sagemaker-your-full-name (Please note: It is important that the bucket is prefixed with deeplens-sagemaker prefix, else SageMaker cannot access the bucket. Click "Next" twice.
+1. Click "Create bucket".
+1. After you create the bucket, click on that bucket in your S3 bucket list, and create a folder named "test" in the bucket.
 
 ### Amazon SageMaker Console
 
